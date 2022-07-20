@@ -64,10 +64,6 @@
     margin: 20px 50px 0px;
 }
 
-/* #middle{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-} */
 .card {
     display: flex;
     width: 992px;
@@ -104,47 +100,40 @@
     margin: 10px 20px;
     text-align: center;
 }
-
-.imgsrc img {
-    width: 100%;
-}
-
-.card-1 {
-    margin-left: 15px;
+.match{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    margin-left: 15px;
 }
-
-.blogs {
-    border: 1px solid #eeeeeb;
+.match-row{
+    border: 1px solid #d6d6d1;
+    text-align: center;
+    padding: 30px;
     border-radius: 8px;
 }
-
-.atical {
-    padding: 10px;
+.flag img{
+    width: 100%;
 }
 
-.bt {
-    border: 2px solid #141617;
-    padding: 5px 12px;
-    border-radius: 5px;
-    display: inline-block;
+.flag{
+    display: flex;
+    align-items: center;
+}
+.vs{
+    padding: 0 20px;
+    font-weight: 700;
+}
+.team{
     font-size: 16px;
-    font-weight: 500;
-    color: #141617;
+    font-weight: 600;
+    padding-top: 10px;
+   
 }
-
-.atical-h5 {
-    padding: 15px 0;
-}
-
-.hours,
-.sms {
-    margin: 0px 20px 0px 8px;
+.dt-and-tm{
     font-size: 14px;
-    font-weight: 400;
     color: #8f8f8e;
+    padding-top: 10px;
 }
 
 .fa-regular {
@@ -188,6 +177,33 @@
     margin-top: 30px;
 }
 .fa-brands{
-    margin: 0 50px;
+    font-size: 24px;
+    margin: 0 20px;
     color: #eeeeeb;
+}
+@media only screen and (max-width:767px) {
+    .top {
+        height: 600px;
+        width: 90%;
+        background-color: #141617;
+        display: flex; 
+        flex-direction: column;
+    
+    }
+    .top-heading {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .main-image img{
+        height: 300px;
+    }
+
+
+    #middle{
+        display: none;
+    }
+    #buttom{
+        display: none;
+    }
+    
 }
