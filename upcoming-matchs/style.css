@@ -91,7 +91,8 @@
     text-align: center;
 
 }
-.links-red{
+
+.links-red {
     width: 200px;
     padding: 10px 5px;
     color: #ffffff;
@@ -100,37 +101,43 @@
     margin: 10px 20px;
     text-align: center;
 }
-.match{
+
+.match {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     margin-left: 15px;
 }
-.match-row{
+
+.match-row {
     border: 1px solid #d6d6d1;
     text-align: center;
     padding: 30px;
     border-radius: 8px;
 }
-.flag img{
+
+.flag img {
     width: 100%;
 }
 
-.flag{
+.flag {
     display: flex;
     align-items: center;
 }
-.vs{
+
+.vs {
     padding: 0 20px;
     font-weight: 700;
 }
-.team{
+
+.team {
     font-size: 16px;
     font-weight: 600;
     padding-top: 10px;
-   
+
 }
-.dt-and-tm{
+
+.dt-and-tm {
     font-size: 14px;
     color: #8f8f8e;
     padding-top: 10px;
@@ -141,80 +148,232 @@
     font-weight: 400;
     color: #8f8f8e;
 }
-.sl-links{
+.view-all{
+    text-align: center;
+}
+.view{
+        padding: 10px 18px;
+        background-color: #f51212;
+        color: #f6fbff;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 30px;
+    
+}
+
+.sl-links {
     height: 250px;
     width: 100%;
     background-color: #141617;
     margin-top: 80px;
     text-align: center;
 }
-.goal-heading{
+
+.goal-heading {
     padding-top: 50px;
     color: #eeeeeb;
     font-weight: 500;
     letter-spacing: 1px;
 }
-.hr{
+
+.hr {
     display: flex;
     justify-content: center;
 }
-.line{
+
+.line {
     width: 992px;
     border: none;
-    height: 1px ;
+    height: 1px;
     background-color: #8f8f8e;
     margin: 30px 0 20px;
 }
-.condition{
+
+.condition {
     margin: 10px;
 }
-.ft{
+
+.ft {
     margin: 0 20px;
     font-size: 12px;
     color: #eeeeeb;
 }
-.my-links{
+
+.my-links {
     margin-top: 30px;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 24px;
     margin: 0 20px;
     color: #eeeeeb;
 }
+
 @media only screen and (max-width:767px) {
-  
+
     .top {
         height: 600px;
         width: 90%;
         background-color: #141617;
-        display: flex; 
+        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-    
+
     }
+
     .top-heading {
         margin-top: 30px;
         font-size: 1.5em;
         text-align: center;
     }
+
     .para {
         text-align: center;
-    
+        margin: 20px;
+
     }
-    .di{
+
+    .di {
         text-align: center;
     }
-    .main-image img{
+
+    .main-image img {
         height: 300px;
         margin: 0 auto;
     }
 
 
-    #middle{
+    .link-1 { 
+        background-color: #ffffff;
+    }
+    .links {
+        border: 1px solid #8f8f8e;
+    
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        justify-content: center; 
+        width: 100%; 
+        align-items: center;
+    }
+
+    .match {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+    .match-row {
+        align-items: center;
+    }
+    .sl-links{
+            height: 100%;
+            width: 100%;
+            background-color: #141617;
+            margin-top: 50px;
+            text-align: center;
+            /* display: flex;
+            flex-direction: column; */
+
+        
+    }
+    .view{
         display: none;
     }
-    #buttom{
+    .condition{
+        display: flex;
+        flex-direction: column;
+    }
+    .ft {
+        margin-top: 10px;
+    }
+    .social-icons{
+        padding: 20px 0;
+    }
+
+  
+
+}
+@media only screen and (min-width:768px) and (max-width:1023px) {
+
+    .top {
+        height: 600px;
+        width: 90%;
+        background-color: #141617;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .top-heading {
+        margin-top: 30px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .para {
+        text-align: center;
+        margin: 20px;
+
+    }
+
+    .di {
+        text-align: center;
+    }
+
+    .main-image img {
+        height: 300px;
+        margin: 0 auto;
+    }
+
+
+    .link-1 { 
+        background-color: #ffffff;
+    }
+    .links {
+        border: 1px solid #8f8f8e;
+    
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        justify-content: center; 
+        width: 100%; 
+        align-items: center;
+    }
+
+    .match {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .match-row {
+        align-items: center;
+    }
+    .sl-links{
+            height: 100%;
+            width: 100%;
+            background-color: #141617;
+            margin-top: 50px;
+            text-align: center;
+            /* display: flex;
+            flex-direction: column; */
+
+        
+    }
+    .social-icons{
+        padding: 20px 0;
+    }
+  
+
+}
+@media screen and (min-width:1024px) {
+    .view{
         display: none;
     }
     
