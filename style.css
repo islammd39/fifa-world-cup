@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+/* =========================
+header-section-start
+============================ */
+
 .container {
     display: flex;
     align-items: center;
@@ -63,11 +67,10 @@
     height: 480px;
     margin: 20px 50px 0px;
 }
+/* =================
+middle-section-start
+==================== */
 
-/* #middle{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-} */
 .card {
     display: flex;
     width: 992px;
@@ -95,7 +98,8 @@
     text-align: center;
 
 }
-.links-red{
+
+.links-red {
     width: 200px;
     padding: 10px 5px;
     color: #ffffff;
@@ -152,9 +156,14 @@
     font-weight: 400;
     color: #8f8f8e;
 }
-.view-all{
+/* ===================
+display-or-none-section
+====================== */
+
+.view-all {
     text-align: center;
 }
+
 .view {
     padding: 10px 18px;
     background-color: #f51212;
@@ -163,47 +172,59 @@
     margin-top: 20px;
     display: inline-block;
 }
-
-.sl-links{
+/* ======================
+footer-start
+======================== */
+.sl-links {
     height: 250px;
     width: 100%;
     background-color: #141617;
     margin-top: 80px;
     text-align: center;
 }
-.goal-heading{
+
+.goal-heading {
     padding-top: 50px;
     color: #eeeeeb;
     font-weight: 500;
     letter-spacing: 1px;
 }
-.hr{
+
+.hr {
     display: flex;
     justify-content: center;
 }
-.line{
+
+.line {
     width: 992px;
     border: none;
-    height: 1px ;
+    height: 1px;
     background-color: #8f8f8e;
     margin: 30px 0 20px;
 }
-.condition{
+
+.condition {
     margin: 10px;
 }
-.ft{
+
+.ft {
     margin: 0 20px;
     font-size: 12px;
     color: #eeeeeb;
 }
-.my-links{
+
+.my-links {
     margin-top: 30px;
 }
-.fa-brands{
+
+.fa-brands {
     font-size: 24px;
     margin: 10px 20px;
     color: #eeeeeb;
 }
+/* ===============
+responsiv-mobile-devices
+================== */
 @media only screen and (max-width:767px) {
 
     .top {
@@ -239,19 +260,21 @@
     }
 
 
-    .link-1 { 
+    .link-1 {
         background-color: #ffffff;
     }
+
     .links {
         border: 1px solid #8f8f8e;
-    
+
     }
+
     .card {
         display: flex;
         flex-direction: column;
-        text-align: center; 
-        justify-content: center; 
-        width: 100%; 
+        text-align: center;
+        justify-content: center;
+        width: 100%;
         align-items: center;
     }
 
@@ -260,35 +283,42 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
-    
-    .sl-links{
-            height: 100%;
-            width: 100%;
-            background-color: #141617;
-            margin-top: 50px;
-            text-align: center;
-            /* display: flex;
+
+    .sl-links {
+        height: 100%;
+        width: 100%;
+        background-color: #141617;
+        margin-top: 50px;
+        text-align: center;
+        /* display: flex;
             flex-direction: column; */
 
-        
+
     }
-    .view{
+
+    .view {
         display: none;
     }
-    .condition{
+
+    .condition {
         display: flex;
         flex-direction: column;
     }
+
     .ft {
         margin-top: 10px;
     }
-    .social-icons{
+
+    .social-icons {
         padding: 20px 0;
     }
 
-  
+
 
 }
+/* ===============
+responsiv-tab-devices
+================== */
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
     .top {
@@ -324,20 +354,22 @@
     }
 
 
-    .link-1 { 
+    .link-1 {
         background-color: #ffffff;
     }
+
     .links {
         border: 1px solid #8f8f8e;
         display: inline-block;
-    
+
     }
+
     .card {
         display: flex;
         flex-direction: column;
-        text-align: center; 
-        justify-content: center; 
-        width: 100%; 
+        text-align: center;
+        justify-content: center;
+        width: 100%;
         align-items: center;
     }
 
@@ -346,26 +378,31 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
-    .sl-links{
-            height: 100%;
-            width: 100%;
-            background-color: #141617;
-            margin-top: 50px;
-            text-align: center;
-            /* display: flex;
+
+    .sl-links {
+        height: 100%;
+        width: 100%;
+        background-color: #141617;
+        margin-top: 50px;
+        text-align: center;
+        /* display: flex;
             flex-direction: column; */
 
-        
+
     }
-    .social-icons{
+
+    .social-icons {
         padding: 20px 0;
     }
-  
+
 
 }
+/* ===============
+responsiv-pc-devi
+================== */
 @media screen and (min-width:1024px) {
-    .view{
+    .view {
         display: none;
     }
-    
+
 }
