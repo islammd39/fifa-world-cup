@@ -182,20 +182,32 @@
     color: #eeeeeb;
 }
 @media only screen and (max-width:767px) {
+  
     .top {
         height: 600px;
         width: 90%;
         background-color: #141617;
         display: flex; 
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     
     }
     .top-heading {
+        margin-top: 30px;
         font-size: 1.5em;
+        text-align: center;
+    }
+    .para {
+        text-align: center;
+    
+    }
+    .di{
         text-align: center;
     }
     .main-image img{
         height: 300px;
+        margin: 0 auto;
     }
 
 
