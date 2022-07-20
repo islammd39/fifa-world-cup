@@ -329,6 +329,7 @@
     }
     .links {
         border: 1px solid #8f8f8e;
+        display: inline-block;
     
     }
     .card {
