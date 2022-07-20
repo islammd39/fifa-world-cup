@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+/* =========================
+header-section-start
+============================ */
+
 .container {
     display: flex;
     align-items: center;
@@ -64,6 +68,9 @@
     height: 480px;
     margin: 20px 50px 0px;
 }
+/* =================
+middle-section-start
+==================== */
 
 .card {
     display: flex;
@@ -149,6 +156,9 @@
     font-weight: 400;
     color: #8f8f8e;
 }
+/* ===================
+display-or-none-section
+====================== */
 .view-all{
     text-align: center;
 }
@@ -161,7 +171,9 @@
         margin-top: 30px;
     
 }
-
+/* ======================
+footer-start
+======================== */
 .sl-links {
     height: 250px;
     width: 100%;
@@ -209,6 +221,9 @@
     margin: 0 20px;
     color: #eeeeeb;
 }
+/* ===============
+responsiv-mobile-devices
+================== */
 
 @media only screen and (max-width:767px) {
 
@@ -275,8 +290,6 @@
             background-color: #141617;
             margin-top: 50px;
             text-align: center;
-            /* display: flex;
-            flex-direction: column; */
 
         
     }
@@ -297,6 +310,9 @@
   
 
 }
+/* ===============
+responsiv-tab-devices
+================== */
 @media only screen and (min-width:768px) and (max-width:1023px) {
 
     .top {
@@ -373,6 +389,9 @@
   
 
 }
+/* ===============
+responsiv-pc-devices
+================== */
 @media screen and (min-width:1024px) {
     .view{
         display: none;
