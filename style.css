@@ -226,7 +226,6 @@ footer-start
 responsiv-mobile-devices
 ================== */
 @media only screen and (max-width:767px) {
-
     .top {
         height: 600px;
         width: 90%;
@@ -235,18 +234,22 @@ responsiv-mobile-devices
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        text-align: center;
+        padding: 0 15px;
 
     }
 
     .top-heading {
-        margin-top: 30px;
-        font-size: 1.5em;
+        margin-top: 15px;
+        font-size: 1.4em;
         text-align: center;
+        font-weight: 400;
     }
 
     .para {
         text-align: center;
         margin: 20px;
+        font-weight: 400;
 
     }
 
