@@ -67,6 +67,7 @@ header-section-start
     height: 480px;
     margin: 20px 50px 0px;
 }
+
 /* =================
 middle-section-start
 ==================== */
@@ -156,6 +157,7 @@ middle-section-start
     font-weight: 400;
     color: #8f8f8e;
 }
+
 /* ===================
 display-or-none-section
 ====================== */
@@ -172,6 +174,7 @@ display-or-none-section
     margin-top: 20px;
     display: inline-block;
 }
+
 /* ======================
 footer-start
 ======================== */
@@ -222,6 +225,7 @@ footer-start
     margin: 10px 20px;
     color: #eeeeeb;
 }
+
 /* ===============
 responsiv-mobile-devices
 ================== */
@@ -319,6 +323,7 @@ responsiv-mobile-devices
 
 
 }
+
 /* ===============
 responsiv-tab-devices
 ================== */
@@ -400,6 +405,7 @@ responsiv-tab-devices
 
 
 }
+
 /* ===============
 responsiv-pc-devices
 ================== */
