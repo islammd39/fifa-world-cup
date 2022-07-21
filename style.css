@@ -19,7 +19,7 @@ header-section-start
 .top {
     height: 500px;
     width: 992px;
-    background-color: #141617;
+    background-color: #003566;
     margin: 50px;
     align-items: center;
     border-radius: 15px;
@@ -29,7 +29,7 @@ header-section-start
 
 .top-left {
     flex-basis: 50%;
-    margin-left: 50px;
+    margin-left: 5%;
     color: #f6fbff;
 }
 
@@ -80,7 +80,7 @@ middle-section-start
 .link-1 {
     display: flex;
     flex-direction: column;
-    background-color: #141617;
+    background-color: #003566;
     width: 250px;
     height: 230px;
     border-radius: 5px;
@@ -178,7 +178,7 @@ footer-start
 .sl-links {
     height: 250px;
     width: 100%;
-    background-color: #141617;
+    background-color: #003566;
     margin-top: 80px;
     text-align: center;
 }
@@ -229,7 +229,7 @@ responsiv-mobile-devices
     .top {
         height: 600px;
         width: 90%;
-        background-color: #141617;
+        background-color: #003566;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -290,7 +290,7 @@ responsiv-mobile-devices
     .sl-links {
         height: 100%;
         width: 100%;
-        background-color: #141617;
+        background-color: #003566;
         margin-top: 50px;
         text-align: center;
         /* display: flex;
@@ -327,7 +327,7 @@ responsiv-tab-devices
     .top {
         height: 600px;
         width: 90%;
-        background-color: #141617;
+        background-color: #003566;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -385,7 +385,7 @@ responsiv-tab-devices
     .sl-links {
         height: 100%;
         width: 100%;
-        background-color: #141617;
+        background-color: #003566;
         margin-top: 50px;
         text-align: center;
         /* display: flex;
